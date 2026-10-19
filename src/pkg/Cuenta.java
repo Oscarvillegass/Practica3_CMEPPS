@@ -18,11 +18,11 @@ public class Cuenta {
 	}
 	
 	public void ingreso(double i) {
-		this.saldo+=25;
+		this.saldo = saldo+i;
 	}
 	
 	public void reintegro(double i) {
-		this.saldo=0;
+		this.saldo = saldo - i;
 	}
 	
 }
